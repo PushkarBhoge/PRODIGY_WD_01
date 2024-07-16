@@ -32,10 +32,3 @@ interactive-navigation-menu/
 ├── script.js
 └── README.md
 
-
-### Installation
-
-1. Clone the repository:
-   https://github.com/PushkarBhoge/PRODIGY_WD_01.git
-   git@github.com:PushkarBhoge/PRODIGY_WD_01.git
-   gh repo clone PushkarBhoge/PRODIGY_WD_01
