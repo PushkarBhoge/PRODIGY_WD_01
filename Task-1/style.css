@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(218, 164, 244);
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(175, 96, 214);
+    color: whitesmoke;
+    padding: 10px 0;
+    transition: background-color 0.3s;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#navbar ul li {
+    margin: 0 15px;
+}
+
+#navbar ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+#navbar ul li a:hover {
+    color: darkorchid;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+#content {
+    margin-top: 70px; /* Adjust according to navbar height */
+}
+
+section {
+    padding: 60px 20px;
+    min-height: 100vh;
+}
+
+section:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+
+section:nth-child(even) {
+    background-color: #e4e4e4;
+}
+
+#home{
+    background-color: rgb(218, 164, 244);
+}
+#about{
+    background-color: rgb(218, 164, 244);
+}
+#services{
+    background-color: rgb(218, 164, 244);
+}
+#contact{
+    background-color: rgb(218, 164, 244);
+}
